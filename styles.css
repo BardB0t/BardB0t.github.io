@@ -13,10 +13,10 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 250px;
+  width: 200px;
   height: 100vh;
   background-color: #6b9080;
-  color: #eaf4f4;
+  color: #cce3de;
   padding: 30px 0;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
@@ -55,7 +55,7 @@ body {
 
 /* Main Content Area */
 .main-content {
-  margin-left: 250px; /* Sidebar width */
+  margin-left: 200px; /* Sidebar width */
   padding: 50px;
 }
 
@@ -71,7 +71,7 @@ body {
 
 .hobby-card {
   flex: 0 0 auto;
-  width: 300px;
+  width: 250px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   text-align: center;
@@ -101,23 +101,23 @@ body {
 
 /* Project Content Area */
 .project-content {
-  margin-left: 250px; /* Sidebar width */
+  margin-left: 200px; /* Sidebar width */
   padding: 50px;
 }
 
 /* Hobby Intro Section */
 .project-intro .container {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 20px;
   overflow-x: auto;
   padding: 10px;
-  scroll-behavior: smooth;
+
 }
 
 .project-card {
   flex: 0 0 auto;
-  width: 300px;
+  width: 250px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   text-align: center;
